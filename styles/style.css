@@ -1,10 +1,33 @@
-header::after {
-    content: "";
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+
+nav a {
+    color: white;
+    padding: 10px;
     display: block;
-    border-bottom: 1px solid steelblue;
+}
+
+h1 {
+    color: steelblue
+}
+
+main img {
+    border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    margin-top: 0.5em;
 }
 
 p {
