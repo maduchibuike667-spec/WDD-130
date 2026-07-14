@@ -1,9 +1,10 @@
-border::after {
+header::after {
     content: "";
     display: block;
     border-bottom: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    margin-top: 0.5em;
 }
 
 p {
